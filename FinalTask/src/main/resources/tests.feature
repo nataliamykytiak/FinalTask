@@ -59,6 +59,8 @@ Feature: Tests
       | nataliia.m.test1@gmail.com | 111114       | Your password is incorrect |
 
 
+#    валиться, якщо запускати декілька тестів на авторизацію одночасно
+#    або повторювати цей тест двічі впродовж короткого часу
   Scenario Outline: Check user can sing in
     When User checks Sign In link visibility
     And User clicks Sign In link
@@ -77,6 +79,9 @@ Feature: Tests
       | nataliia.m.test1@gmail.com | 111111       | Hello, Nataliia |
 
 
+
+#    валиться, якщо запускати декілька тестів на авторизацію одночасно
+#    або повторювати цей тест двічі впродовж короткого часу
   Scenario Outline: Check changing user's name on personal account page
     When User checks Sign In link visibility
     And User clicks Sign In link

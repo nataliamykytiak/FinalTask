@@ -11,7 +11,7 @@ public class SearchResultsPage extends BasePage{
     @FindBy(xpath = "//*[@data-component-type='s-search-result']")
     private List<WebElement> searchResults;
 
-    @FindBy(xpath = "//*[@id=\"search\"]/div[1]/div[1]/div/span[3]/div[2]/div[2]/div/div/div/div/div[2]/div[1]/h2/a/span")
+    @FindBy(xpath = "//*[@id=\"search\"]/div[1]/div[1]/div/span[1]/div[1]/div[2]/div/div/div/div/div[2]/div[1]/h2/a/span")
     private WebElement searchResultsFirstItem;
 
     @FindBy(xpath = "//ul/li[contains(@class, 's-item') and contains(@data-view, 'iid')]")
