@@ -1,8 +1,0 @@
-stepdefinitions\StepDefinitions.class
-pages\BasePage.class
-pages\HomePage.class
-pages\SignInPage.class
-pages\PersonalAccountPage.class
-pages\SearchResultsPage.class
-manager\PageFactoryManager.class
-pages\CamerasAndPhotoPage.class
