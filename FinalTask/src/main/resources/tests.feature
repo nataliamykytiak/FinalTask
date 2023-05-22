@@ -105,8 +105,8 @@ Feature: Tests
     Then User checks that current name is '<currentName>'
 
     Examples:
-      | userEmail                  | userPassword | changeNamePageTitle  | newName       | currentName |
-      | nataliia.m.test1@gmail.com | 111111       | Change your name     | Nataliia      | Nataliia    |
+      | userEmail | userPassword | changeNamePageTitle  | newName       | currentName |
+      | userEmail | 111111       | Change your name     | Nataliia      | Nataliia    |
 
 
   Scenario Outline: Check user can change delivery location with US zip-code
